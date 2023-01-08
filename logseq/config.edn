@@ -317,4 +317,6 @@
  :publishing/all-pages-public? true
  :journal/page-title-format "yyyy-MM-dd"
  :editor/logical-outdenting? true
+ :default-home {:page "overview"
+               :sidebar "Contents"  }
  }
