@@ -1,0 +1,120 @@
+:root {
+    --ls-font-family: SF Pro Display Light, PingFang SC Medium, sans-serif;
+    --ls-scrollbar-width: 10px;
+    font-size:17px;
+    --ls-highlight-color: #b5d3ff;
+    }
+    mark {
+        background: transparent;
+        padding: 0;
+        color: inherit;
+        font-size: inherit;
+        text-decoration-style: solid;
+        text-decoration: underline;
+        text-decoration-color: #ffc600;
+        text-decoration-thickness: 4px;
+        text-underline-offset: -5px;
+        text-decoration-skip-ink: none;
+    }
+    
+     .cp__sidebar-help-btn /*右下角帮助按钮*/
+              ,.new-page /*左下角新建页面按钮*/
+              ,.cp__header /*左上角工具条*/
+              ,.cp__right-sidebar-topbar /*右上角工具条*/
+              {transition: all 0.5s 0s ;opacity:0}
+     .cp__sidebar-help-btn:hover /*右下角帮助按钮*/
+              ,.new-page:hover /*左下角新建页面按钮*/
+              ,.cp__header:hover /*左上角工具条*/
+              ,.cp__right-sidebar-topbar:hover /*右上角工具条*/
+              {transition: all 0.5s 0s ;opacity:1}
+    
+    mark.yellow{background:#fff;text-decoration-color: #fff3a3; }
+    mark.pink{background:#fff;text-decoration-color: #f2b3cf;}
+    mark.blue{background:#fff;text-decoration-color: #b5d3ff; }
+    mark.green{background:#fff;text-decoration-color: #bbfabb; }
+    mark.red{background:#fff;text-decoration-color: #ff5582; }
+    mark.grey{background:#fff;text-decoration-color: #cacfd9; }
+    mark.orange{background:#fff;text-decoration-color: #ffb86c; }
+    mark.purple{background:#fff;text-decoration-color: #d2b3ff; }
+    h1.title {
+         font-weight: 500;
+         text-decoration: none;
+         font-size:30px;
+    }
+    
+    .external-link {border-bottom:0px solid}
+    .external-link:hover{border-bottom:0px solid}
+    a.tag{font-family:Verdana,"微软雅黑";
+    }
+    a.tag:hover {
+         color: #A7b6c2;
+    }
+    /*
+      >>> BEGIN: QUERY table
+    */
+    .custom-query-title {
+        display: flex;
+        padding-left: 36px;
+    }
+    .custom-query .color-level,
+    .custom-query .table-auto {
+        margin: 0 0 3px 0;
+    }
+    .custom-query > div >  .initial {
+        position: relative;
+    }
+    /* setting button*/
+    .custom-query .initial > div .fade-link {
+        position: absolute;
+        z-index: 1;
+        left: -4px;
+        top: -27px;
+        padding: 0px 3px;
+        opacity: 1;
+        border: 1px solid var(--border-opacity);
+        background: var(--ls-secondary-background-color);
+    }
+    .custom-query .initial > div .fade-link:hover {
+        background: var(--ls-primary-background-color);
+    }
+    .custom-query .initial > div > .flex.flex-row {
+        height: 0;
+    }
+    .custom-query .initial > div > .flex.flex-row .text-sm {
+        display: none;
+    }
+    .custom-query .initial > div > .flex.flex-row .ui__toggle {
+        display: flex;
+        position: absolute;
+        top: -20px;
+        right: 0;
+    }
+    .custom-query .initial > div > .flex.flex-row .ui__toggle::before {
+        content: '\eba1';
+        font-family: 'tabler-icons';
+        height: 20px;
+        width: 20px;
+        font-size: 20px;
+        margin: -6px 4px 0 0;
+        color: var(--ls-primary-text-color);
+    opacity: 0.6;
+    }
+    .custom-query .initial > div > .overflow-x-auto {
+        border-radius: 4px;
+    
+        box-shadow: var(--shadow);
+        border: 1px solid var(--border);
+    }
+    .results-count {
+        white-space: nowrap;
+    }
+    td.whitespace-nowrap {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 450px;
+        overflow: hidden;
+    }
+    /*
+      <<<< END: QUERY table
+    */
+    
