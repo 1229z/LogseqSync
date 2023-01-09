@@ -38,7 +38,7 @@
  ;; :feature/enable-journals? true
 
  ;; Enable flashcards
- ;; :feature/enable-flashcards? true
+:feature/enable-flashcards? false
 
  ;; Disable Built-in Scheduled and deadline Query
  ;; :feature/disable-scheduled-and-deadline-query? true
@@ -80,7 +80,7 @@
  ;; 1. Setup page "Changelog" as home page and "Contents" in sidebar
  ;; :default-home {:page "Changelog", :sidebar "Contents"}
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
- ;; :default-home {:page "Jun 3rd, 2021"}
+:default-home {:page "2023-1-8"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
  ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
 
@@ -317,6 +317,5 @@
  :publishing/all-pages-public? true
  :journal/page-title-format "yyyy-MM-dd"
  :editor/logical-outdenting? true
- :default-home {:page "overview"
-               :sidebar "Contents"  }
+ :feature/enable-journals? false
  }
