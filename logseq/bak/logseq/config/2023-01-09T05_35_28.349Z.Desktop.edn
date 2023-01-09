@@ -80,7 +80,7 @@
  ;; 1. Setup page "Changelog" as home page and "Contents" in sidebar
  ;; :default-home {:page "Changelog", :sidebar "Contents"}
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
- ;; :default-home {:page "Jun 3rd, 2021"}
+:default-home {:page "2023-01-08"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
  ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
 
@@ -317,4 +317,5 @@
  :publishing/all-pages-public? true
  :journal/page-title-format "yyyy-MM-dd"
  :editor/logical-outdenting? true
+ :feature/enable-journals? true
  }
