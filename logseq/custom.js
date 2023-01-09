@@ -1,0 +1,1 @@
+document.querySelector(".nav-content-item + .recent").classList.remove("is-expand");
