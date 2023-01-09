@@ -38,7 +38,7 @@
  ;; :feature/enable-journals? true
 
  ;; Enable flashcards
- ;; :feature/enable-flashcards? true
+:feature/enable-flashcards? false
 
  ;; Disable Built-in Scheduled and deadline Query
  ;; :feature/disable-scheduled-and-deadline-query? true
